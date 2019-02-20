@@ -1,0 +1,1 @@
+This is wireframe of an e-commerce webpage that I grabbed from Dribbble. Here is the link to that wireframe that I am building this webpage off of https://dribbble.com/shots/6047672-Webflow-Ecommerce/attachments
