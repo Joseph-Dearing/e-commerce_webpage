@@ -12,8 +12,6 @@ width: 70%;
 }
 
 nav {
-    /* background-color: #000; */
-    /* display: inline-block; */
     width: 90%;
     text-align: center;
     margin: 0 auto 0 auto;
@@ -34,10 +32,7 @@ nav ul {
 }
 
 nav li {
-    /* padding: 0 1em .3em 1em; */
     background-color: #000;
-    /* margin: 0 0 .25em 0.2em; */
-    /* display: block; */
     width: 12%;
     float: left;
 }
@@ -97,3 +92,57 @@ p.cart-logo {
     padding-left: 2.2em;
 }
 
+div.email-form {
+  margin: 1.4em 0 0 10em;
+  position: absolute;
+}
+
+p.email-form {
+    color: #ffffff;
+}
+
+input[type=email] {
+    width: 97%;
+    padding: 1.8em 5em;
+    margin: 0.5 0 0.5em 2em;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+  }
+
+  input[class="submit"] {
+    margin-left: -50px;
+    height: 4.9em;
+    width: 4.2em;
+    background: #268b3cb6;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+}
+    
+    div.video-button {
+        float: left;
+    }
+
+
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 0.9375em 2em;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        cursor: pointer;
+      }
+
+      button.play-button {
+        background-color: white;
+        color: black;
+        border: 0.125em solid #e7e7e7;
+        margin: 4.6em 0 0 30em;
+      }
+
+
+      
