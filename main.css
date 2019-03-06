@@ -119,6 +119,7 @@ input[type=email] {
     color: white;
     border: 0;
     -webkit-appearance: none;
+    cursor: pointer;
 }
     
     div.video-button {
