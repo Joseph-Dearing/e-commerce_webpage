@@ -1,69 +1,90 @@
+/*This is the code used for the style of the webpage body*/
 body {
     background-image: url("images/background_image.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin: 0;
 }
 
-div.container {
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    body {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+/*This is the code to style the "Play Video" button*/
+button.play-button {
+    padding: 0.9375em 2em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 0.125em solid #e7e7e7;
+    margin: 4.6em 0 0 30em;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    button.play-button {
+        margin: 6.5em 0 0 6.2em;
+        width: 60%;
+        
+    }
+}
+
+
+/*This is the code for the "header" section of the page where most of the main content is*/
+header {
 margin: auto;
 width: 70%;
 }
 
-nav {
-    width: 90%;
-    text-align: center;
-    margin: 0 auto 0 auto;
-    padding: 0;
-    background: black;
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    header {
+        width: 60%;
+    }
 }
 
-nav::after {
-    content: "";
-    display: table;
-    clear: both;
+
+/*This is the code to position the div for the e-mail input form*/
+div.email-form {
+  margin: 1.4em 0 0 10em;
+  position: absolute;
 }
 
-nav ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    div.email-form {
+        margin: auto;
+        width: 60%;
+    }
 }
 
-nav li {
-    background-color: #000;
-    width: 12%;
-    float: left;
+
+/*This is the code used for the font next to the logo*/
+div.cart-logo {
+    color: #88e2a3;
+    font-weight: 500;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1em;
+    padding-left: 2.2em;
 }
 
-nav a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .9em;
-    text-decoration: none;
-    color: #e2e2e2;
-    padding: .4em .5em 1em .5em;
-    display: inline-block;
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    div.cart-logo {
+        margin: auto;
+        width: 60%;
+    }
 }
 
-nav a:hover {
-    background-color: #383838;
-}
-
-nav li.login {
-    margin-left: 15%;
-}
-
-nav li.try {
-    background-color: #383838;
-}
-
-nav li.webflow {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 1.1em;
-}
-
+/*This is the code used to style the main headline of the page*/
 h1.headline {
     color: #ffffff;
     font-size: 4em;
@@ -71,36 +92,15 @@ h1.headline {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p.main-content {
-    color: #ffffff;
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    word-spacing: 0.2em;  
-}
 
+/*This is the code to position the cart logo img*/
 img.cart-logo {
     float: left;
     clear: both;
+    padding-top: 1em;
 }
 
-p.cart-logo {
-    color: #88e2a3;
-    font-weight: 500;
-    font-size: 1.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 0.5em;
-    padding-left: 2.2em;
-}
-
-div.email-form {
-  margin: 1.4em 0 0 10em;
-  position: absolute;
-}
-
-p.email-form {
-    color: #ffffff;
-}
-
+/*This is the code used to style the div for e-mail input form*/
 input[type=email] {
     width: 97%;
     padding: 1.8em 5em;
@@ -111,6 +111,16 @@ input[type=email] {
     color: white;
   }
 
+  /*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+  @media (max-width: 500px) {
+    input[type=email] {
+       margin-left: 9em;
+        width: 60%;
+    }
+}
+
+ 
+  /*This is the code used to style the submit button for the e-mail input form*/
   input[class="submit"] {
     margin-left: -50px;
     height: 4.9em;
@@ -121,29 +131,186 @@ input[type=email] {
     -webkit-appearance: none;
     cursor: pointer;
 }
-    
-    div.video-button {
-        float: left;
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    input[class="submit"] {
+        margin-left: 9em;
+        width: 60%;
     }
+}
+
+  
+/*This is the code for the main styleing of the nav*/
+nav {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    background: black;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav {
+        margin: auto;
+        width: 60%;
+    }
+}
 
 
-    .button {
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 0.9375em 2em;
-        text-align: center;
-        text-decoration: none;
-        font-size: 1em;
-        cursor: pointer;
-      }
+/*This is a psudo-element for the Nav Bar, this will clear floats & make the nav bar display correctly*/
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-      button.play-button {
-        background-color: white;
-        color: black;
-        border: 0.125em solid #e7e7e7;
-        margin: 4.6em 0 0 30em;
-      }
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav::after {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+/*This is the code for the styling of the unorderlist for the Nav Bar*/
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav ul {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+/*This is the code used to style the Nav Bar List*/
+nav li {
+    background-color: #000;
+    width: 12%;
+    float: left;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav li {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+/*This is the code for the style of the anchor links that are in the Nav Buttons*/
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    text-decoration: none;
+    color: #e2e2e2;
+    padding: .4em .5em 1em .5em;
+    display: inline-block;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav a {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+/*This is the code that will change the background color of the anchor when the user hover over the button/link*/
+nav a:hover {
+    background-color: #383838;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav a:hover {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+/*This is the code used to push the log in button/link to the far right to follow the wireframes design*/
+nav li.login {
+    margin-left: 15%;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav li.login {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+/*This is the standard background color being used for the "Try for free" button to follow the wireframe design*/
+nav li.try {
+    background-color: #383838;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav li.try {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+/*This is the code styleing for the "Webflow" button to match the styleing used in the wireframe*/
+nav li.webflow {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    nav li.webflow {
+        margin: auto;
+        width: 60%;
+    }
+}
+
+
+
+/*This is the font styleing that I went with to best match the styleing in the wireframe*/
+p.main-content {
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 0.2em;  
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    p.main-content {
+        margin-bottom: 3em;
+    }
+}
+
+/*This is the styleing for the "Get Started For Free" text right above the e-mail field (on the left if in mobile view)*/
+p.email-form {
+    color: #ffffff;
+}
+
+/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+@media (max-width: 500px) {
+    p.email-form {
+       margin-right: 10em;
+       position: absolute;
+       font-size: 2em;
+    }
+}
+
+
+
+
+  
 
 
       
