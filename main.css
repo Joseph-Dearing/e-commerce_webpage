@@ -197,6 +197,11 @@ p.get-started {
     color: #ffffff;
 }
 
+/*This is the code to style the placeholder text in the e-mail field*/
+::placeholder {
+    color: #bb01bb;
+    font-size: 1.4em;
+  }
 
 /*-------------------MEDIA QUARRYS FOR MOBILE RESPONSIVE DESIGN LAYOUT---------------------------- */
 
