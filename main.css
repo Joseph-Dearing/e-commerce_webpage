@@ -8,13 +8,13 @@ a.share {
 }
 
 
-/*This is the code for the Facebook icon on the page*/
+/*This is the code used to leave some space between the Facebook Icon & Twitter Icon*/
 a.FB-icon {
     padding-right: 1.2em;
 }
 
 
-/*This is the code used for the style of the webpage body*/
+/*This is the code used for the style of the webpage body background*/
 body {
     background-image: url("images/background_image.jpg");
     background-size: cover;
@@ -37,7 +37,7 @@ button.play-button {
 }
 
 
-/*This is the code for the "header" section of the page where most of the main content is*/
+/*This is the code for the "header" section of the webpage, where most of the main content is*/
 header {
 margin: auto;
 width: 70%;
@@ -51,7 +51,7 @@ div.email-form {
 }
 
 
-/*This is the code used for the font next to the logo*/
+/*This is the code to style the font next to the cart logo*/
 div.cart-logo {
     color: #88e2a3;
     font-weight: 500;
@@ -62,7 +62,7 @@ div.cart-logo {
 }
 
 
-/*This is the code for the social media div that has the 2 icons and one share link*/
+/*This is the code used to position the social media div that has the 2 icons and one share link*/
 div.social-media {
     margin-left: 50em;
     display: inline;
@@ -86,7 +86,7 @@ img.cart-logo {
 }
 
 
-/*This is the code used to style the div for e-mail input form*/
+/*This is the code used to style the div for the e-mail input form*/
 input[type=email] {
     width: 97%;
     padding: 1.8em 5em;
@@ -122,7 +122,7 @@ nav {
 }
 
 
-/*This is a psudo-element for the Nav Bar, this will clear floats & make the nav bar display correctly*/
+/*This is a psudo-element for the Nav Bar, this will clear floats and will help the nav display correctly*/
 nav::after {
     content: "";
     display: table;
@@ -138,7 +138,7 @@ nav ul {
 }
 
 
-/*This is the code used to style the Nav Bar List*/
+/*This is the code used to style the Nav Bar List Items*/
 nav li {
     background-color: #000;
     width: 12%;
@@ -157,25 +157,25 @@ nav a {
 }
 
 
-/*This is the code that will change the background color of the anchor when the user hover over the button/link*/
+/*This is another psudo-element that will change the background color of the anchor when the user hover over the button or link*/
 nav a:hover {
     background-color: #383838;
 }
 
 
-/*This is the code used to push the log in button/link to the far right to follow the wireframes design*/
+/*This is the code used to position the "Log In" & "Try for free" buttons to the far right to follow Dribbble's Wireframe Design*/
 nav li.login {
     margin-left: 15%;
 }
 
 
-/*This is the standard background color being used for the "Try for free" button to follow the wireframe design*/
+/*This is the standard background color being used for the "Try for free" button to follow the Dribbble Wireframe Design*/
 nav li.try {
     background-color: #383838;
 }
 
 
-/*This is the code styleing for the "Webflow" button to match the styleing used in the wireframe*/
+/*This is the code styleing for the "Webflow" button to match the styleing used in the Dribbble Wireframe*/
 nav li.webflow {
     font-style: italic;
     font-weight: 600;
@@ -183,7 +183,7 @@ nav li.webflow {
 }
 
 
-/*This is the font styleing that I went with to best match the styleing in the wireframe*/
+/*This is the font styleing that I went with to best match the styleing in the Dribbble Wireframe*/
 p.main-content {
     color: #ffffff;
     font-size: 1em;
@@ -197,7 +197,7 @@ p.get-started {
     color: #ffffff;
 }
 
-/*This is the code to styles the placeholder text in the e-mail field*/
+/*This is the code to style the placeholder text in the e-mail field*/
 ::placeholder {
     color: #bb01bb;
     font-size: 1.4em;
@@ -206,7 +206,7 @@ p.get-started {
 /*-------------------MEDIA QUARRYS FOR MOBILE RESPONSIVE DESIGN LAYOUT---------------------------- */
 
 
-/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+/*This is the code of styleing for the body of the webpage that will be used on a mobile device such as an iPhone X Screen Size & Below*/
 @media (max-width: 500px) {
     body {
         margin: auto;
@@ -214,8 +214,8 @@ p.get-started {
     }
 }
 
-/*This is the code of styleing that will be used on a large tablet device such as an iPad*/
-@media (max-width: 950px) {
+/*This is the code of styleing for the "Play Video Button" that will be used on a large tablet device such as an iPad*/
+@media (max-width: 1000px) {
     button.play-button {
         margin: 4.5em 0 2em 29em;
         width: 20%;
@@ -223,7 +223,7 @@ p.get-started {
 }
 
 
-/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+/*This is the code of styleing for the "Play Video Button" that will be used on a mobile device such as an iPhone X Screen Size & Below*/
 @media (max-width: 500px) {
     button.play-button {
         margin: 6.5em 0 2em 6.2em;
@@ -232,15 +232,7 @@ p.get-started {
 }
 
 
-/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
-@media (max-width: 500px) {
-    button.play-button {
-        margin: 6.5em 0 2em 6.2em;
-        width: 70%;
-    }
-}
-
-/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+/*This is the code of styleing that will be used for the "email input form" section of the webpage that will apply to a mobile device such as an iPhone X Screen Size & Below*/
 @media (max-width: 500px) {
     div.email-form {
         margin: auto;
@@ -248,7 +240,7 @@ p.get-started {
     }
 }
 
-/*This is the code of styleing that will be used on a mobile device such as an iPhone X Screen Size & Below*/
+/*This is the code of styleing for the "Shopping Cart Logo" that will be used on a mobile device such as an iPhone X Screen Size & Below*/
 @media (max-width: 500px) {
     div.cart-logo {
         margin: auto;
@@ -256,13 +248,16 @@ p.get-started {
     }
 }
 
-@media (max-width: 950px) {
+/*This is the styleing code that will be used for the soical media icons for tabelet devices such as an iPad or below*/
+/*The purpose of this code is to prevent the social media icons from getting cut off on the page on tablet screen sizes*/
+@media (max-width: 1000px) {
     div.social-media {
         margin: 0 20em 0 20em;
         display: inline;
     }
 }
 
+/*The is the styleing code that will be used for the social media icons on mobile devices such as iPhone X or below*/
 @media (max-width: 500px) {
     div.social-media {
         margin: auto;
